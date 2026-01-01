@@ -1,4 +1,4 @@
-package com.example.identity_service.dto.request;
+package com.example.identity_service.dto.request.auth;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class IntrospectRequest {
-    @NotBlank(message = "Token is required")
-    private String token;
+public class RefreshTokenRequest {
+    @NotBlank(message = "Refresh token is required")
+    private String refreshToken;
 }

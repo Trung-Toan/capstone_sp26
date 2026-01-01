@@ -1,4 +1,4 @@
-package com.example.identity_service.dto.request;
+package com.example.identity_service.dto.request.user;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.Size;

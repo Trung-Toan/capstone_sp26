@@ -1,4 +1,4 @@
-package com.example.identity_service.dto.request;
+package com.example.identity_service.dto.request.role;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;

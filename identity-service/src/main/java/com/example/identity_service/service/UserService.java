@@ -1,7 +1,7 @@
 package com.example.identity_service.service;
 
-import com.example.identity_service.dto.request.UserCreateRequest;
-import com.example.identity_service.dto.request.UserUpdateRequest;
+import com.example.identity_service.dto.request.user.UserCreateRequest;
+import com.example.identity_service.dto.request.user.UserUpdateRequest;
 import com.example.identity_service.dto.response.UserResponse;
 import java.util.List;
 

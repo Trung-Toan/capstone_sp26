@@ -2,6 +2,7 @@ package com.example.identity_service.controller;
 
 import com.example.identity_service.dto.request.*;
 import com.example.identity_service.dto.request.auth.*;
+import com.example.identity_service.dto.request.user.UserCreateRequest;
 import com.example.identity_service.dto.response.AuthenticationResponse;
 import com.example.identity_service.dto.response.IntrospectResponse;
 import com.example.identity_service.dto.response.MessageResponse;
